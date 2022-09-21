@@ -22,6 +22,7 @@ body {
 }
 .section2 {
     background-color: white;
+    flex-direction: column;
 }
 .section3 {
     background-color: #e5e7eb;
@@ -83,4 +84,9 @@ ul {
 .content-left p{
     color: snow;
     max-width: 432px;
+}
+
+
+.box-container,.subtext-container {
+    display: flex;
 }
