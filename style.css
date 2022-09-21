@@ -69,6 +69,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px;
     gap: 150px;
 }
 .content-right {
@@ -80,16 +81,25 @@ ul {
     width: 300px;
     height: 150px;
 }
-
-.content-left h1{
+.content-left h1 {
     color: white;
     margin-top: -20px;
+    margin-bottom: -10px;
 }
 .content-left p{
     color: snow;
     max-width: 432px;
 }
-
+.sign-up-button{
+    border: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #3882f6;
+    padding:6px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+}
 
 
 .box-container,.subtext-container, .title-s2, .box {
@@ -124,6 +134,7 @@ ul {
     width: 100px;
     height: 100px;
 }
+
 
 
 .testimonial-container {
