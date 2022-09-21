@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: Helvetica, sans-serif;
-    min-width: 1000px;
+    flex-shrink: 1;
 }
 
 
@@ -48,6 +48,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0;
+    flex-shrink: 1;
 }
 .header-logo, .header-links ul {
     display: flex;
@@ -89,6 +90,7 @@ ul {
     color: white;
     margin-top: -20px;
     margin-bottom: -10px;
+    min-width: 400px;
 }
 .content-left p{
     color: snow;
