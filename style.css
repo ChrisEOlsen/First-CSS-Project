@@ -4,7 +4,6 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: Helvetica, sans-serif;
-    flex-shrink: 1;
 }
 
 
@@ -13,6 +12,7 @@ body {
     display: flex;
     min-height: 300px;
     flex: 1;
+    min-width: 800px;
 }
 
 .section1 {
@@ -48,7 +48,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    flex-shrink: 1;
+    min-width: 800px;
 }
 .header-logo, .header-links ul {
     display: flex;
