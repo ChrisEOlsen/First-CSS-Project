@@ -188,6 +188,11 @@ ul {
     border-radius: 8px;
     font-weight: 600;
 }
+.content-right-s4 button:hover, .sign-up-button:hover {
+    background-color: white;
+    text-decoration: none;
+    color: #3882f6;
+}
 
 
 .footer {
