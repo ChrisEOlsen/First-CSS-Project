@@ -162,8 +162,8 @@ ul {
     background-color: #3882f6;
     width: 750px;
     height: 130px;
-    gap: 150px;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 40px;
     align-items: center;
     border-radius: 12px;
 }
