@@ -24,7 +24,6 @@ body {
     background-color: white;
     flex-direction: column;
     align-items: center;
-    max-height: 280px;
 }
 .section3 {
     background-color: #e5e7eb;
@@ -52,7 +51,6 @@ body {
 }
 .header-logo {
     font-size: 20px;
-    padding: 16px;
     color: #f9faf8;
 }
 .header-links ul {
@@ -117,22 +115,19 @@ ul {
     margin-bottom: 22px;
 }
 .box-container {
-    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .box {
     background-color: white;
     width: 98px;
     height: 98px;
+    margin: 0px 25px;
     border: 2px solid lightblue;
     border-radius: 25px;
 }
-.subtext-container {
-    justify-content: center;
-    gap: 51px;
-    margin-bottom: 0;
-}
-.subtext-s2 {
-    margin-top: 8px;
+.subtext{
+    margin: 0px 25px;
     font-size: 11px;
     text-align: center;
     width: 100px;
