@@ -127,7 +127,7 @@ ul {
     border-radius: 25px;
 }
 .subtext{
-    margin: 0px 25px;
+    margin: 5px 25px;
     font-size: 11px;
     text-align: center;
     width: 100px;
@@ -138,6 +138,8 @@ ul {
 
 .testimonial-container {
     margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 .testimonial-s3 {
     font-size: 24px;
