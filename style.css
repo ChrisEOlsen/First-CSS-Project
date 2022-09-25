@@ -40,7 +40,7 @@ body {
 
 .header-container {
     display: flex;
-    padding: 0px 80px;
+    padding: 0px 50px;
     background-color: #1F2938;
     justify-content: space-between;
     align-items: center;
